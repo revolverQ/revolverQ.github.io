@@ -6,7 +6,7 @@
   <link href="https://revolverq.github.io/atom.xml" rel="self"/>
   
   <link href="https://revolverq.github.io/"/>
-  <updated>2023-08-25T01:50:06.977Z</updated>
+  <updated>2023-08-27T13:00:08.229Z</updated>
   <id>https://revolverq.github.io/</id>
   
   <author>
@@ -17,11 +17,61 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
+    <title>关于过冷状态的理解思考</title>
+    <link href="https://revolverq.github.io/2023/08/27/guan-yu-guo-leng-zhuang-tai-de-li-jie-si-kao/"/>
+    <id>https://revolverq.github.io/2023/08/27/guan-yu-guo-leng-zhuang-tai-de-li-jie-si-kao/</id>
+    <published>2023-08-27T12:58:58.000Z</published>
+    <updated>2023-08-27T13:00:08.229Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;基本介绍&quot;&gt;&lt;a href=&quot;#基本介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="KindomOfScience" scheme="https://revolverq.github.io/categories/KindomOfScience/"/>
+    
+    
+    <category term="Science" scheme="https://revolverq.github.io/tags/Science/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于《what if？》中关于风的思考</title>
+    <link href="https://revolverq.github.io/2023/08/27/ji-yu-what-if-zhong-guan-yu-feng-de-si-kao/"/>
+    <id>https://revolverq.github.io/2023/08/27/ji-yu-what-if-zhong-guan-yu-feng-de-si-kao/</id>
+    <published>2023-08-27T12:31:25.000Z</published>
+    <updated>2023-08-27T12:54:06.285Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;基本介绍&quot;&gt;&lt;a href=&quot;#基本介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="KindomOfScience" scheme="https://revolverq.github.io/categories/KindomOfScience/"/>
+    
+    
+    <category term="Science" scheme="https://revolverq.github.io/tags/Science/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo便签简记</title>
     <link href="https://revolverq.github.io/2023/08/24/hello-world/"/>
     <id>https://revolverq.github.io/2023/08/24/hello-world/</id>
     <published>2023-08-24T15:23:18.699Z</published>
-    <updated>2023-08-25T01:50:06.977Z</updated>
+    <updated>2023-08-27T11:41:28.014Z</updated>
     
     
       
@@ -34,6 +84,10 @@
     
     
     
+    <category term="KindomOfCode" scheme="https://revolverq.github.io/categories/KindomOfCode/"/>
+    
+    
+    <category term="Code" scheme="https://revolverq.github.io/tags/Code/"/>
     
   </entry>
   

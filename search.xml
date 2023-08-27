@@ -4,13 +4,75 @@
   
     
     <entry>
-      <title>Hello World</title>
+      <title>关于过冷状态的理解思考</title>
+      <link href="/2023/08/27/guan-yu-guo-leng-zhuang-tai-de-li-jie-si-kao/"/>
+      <url>/2023/08/27/guan-yu-guo-leng-zhuang-tai-de-li-jie-si-kao/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><p>过冷状态是温度低于凝固点但仍不凝固或结晶的液体。同时液体经过扰动后水分子间形成化学键，而形成化学键释放热量导致温度上升。</p><h2 id="我的思考"><a href="#我的思考" class="headerlink" title="我的思考"></a>我的思考</h2><p>首先理解定义中的晶体和液体是什么：晶体:分子或原子排列有规律；<br>液体:分子或原子排列无规律。<br>基于上述因素，液体在转化为固体时分子排列由无序转化为有序①，这一过程可以称为结晶，而同时结晶过程中，若液体越纯净，则结晶中心②越难形成，若降低至凝固点以下仍未形成结晶中心则称为过冷状态。<br><img src="/images/01.png"><br>而从凝固点时刻以及分子原子角度出发思考，我认为过冷态是基于温度已经对分子原子的运动产生了抑制，而运动过程中本来进行多体运动的粒子所产生的相互作用力因此变弱(或称所受的不确定力减少)，整体内部各个粒子逐渐趋于相对平衡，但此时原子和分子之间的作用力并未到达平衡需要缓慢移动直到达到相对平衡状态，而在温度随时间变化时对运动抑制更大且更要求粒子间相对静止的平衡而非运动时的平衡，最后到达实际凝固点从而达到相对静止并且相对平衡。<br>（这里逻辑有点混乱，简述一遍就是:温度低抑制分子运动，让分子间逐渐趋于相对静止，而运动时所受力的平衡状态，以及相对静止力的平衡状态不同，温度导致了这两种状态的转变）<br>第二段仅为一些想记录的想法，且苯人不是什么专业人士，概念一塌糊涂，所说经不起推敲</p><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p>注释①我认为固体分子之间排列更加紧密，相互作用力更加明显，同时也因此分子之间更需要达到平衡状态，平衡可称为有序，液体气体反之</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> KindomOfScience </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Science </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>基于《what if？》中关于风的思考</title>
+      <link href="/2023/08/27/ji-yu-what-if-zhong-guan-yu-feng-de-si-kao/"/>
+      <url>/2023/08/27/ji-yu-what-if-zhong-guan-yu-feng-de-si-kao/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><p>首先是关于风的解释<br>风，是由空气流动引起的一种自然现象，它是由太阳辐射热引起的。<br>太阳光照射在地球表面上，使地表温度升高，地表的空气受热膨胀变轻而往上升。<br>热空气上升后，低温的冷空气横向流入，上升的空气因逐渐冷却变重而降落，由于地表温度较高又会加热空气使之上升，这种空气的流动就产生了风。<br><img src="/images/03.jpg"></p><h3 id="介绍补充"><a href="#介绍补充" class="headerlink" title="介绍补充"></a>介绍补充</h3><p>✪同时还有与水蒸气的关联<br>集结的水蒸气（云）结成水时，体积缩小，周围水蒸气前来补充，就形成风。<br>地球上的风与水源有关系，风由水与水蒸气的胀缩而产生，风由大海吹向陆地，或陆地吹向大海。<br>在夏天地面上温度高，空气、水蒸气膨胀上升，要由海面比重大的空气、水蒸气补充地面空气空间。海面温度低空气收缩，要由地面上温度高空气膨胀上升的空气、水蒸气补充海面空气空间。（夏季风由海洋吹向陆地）<br>在冬天海面温度高海面空气上升，地面温度低空气比重大沿地面补充海面空间。（冬季风反之）<br><img src="/images/05.jpg"></p><h2 id="从运动学与力学角度深入"><a href="#从运动学与力学角度深入" class="headerlink" title="从运动学与力学角度深入"></a>从运动学与力学角度深入</h2><p>相对于地轴所有物体平均以470m/s的速度圆周运动，而赤道处速度最大（速度=角速度* 半径）<br>关于狂风摧毁建筑物的思路可以从动量冲量方面考虑p=mv，I=Ft=mv2-mv1。<br>而关于龙卷风将建筑物连根拔起可以这么解释:<br>风速快的地方压强就小，而龙卷风经过时导致房屋上方的压强变小，而房屋内部仍处于正常大气压，从而导致房屋被从低到高“压”飞出去。<br>（关于风速大压强小的解释:首先回忆能量守恒，以此为基础，流速大即代表空气动能大，动能大则势能小，势能小了压强也就小了）<br><img src="/images/02.jpg"></p><h2 id="基于书本对潮汐的补充"><a href="#基于书本对潮汐的补充" class="headerlink" title="基于书本对潮汐的补充"></a>基于书本对潮汐的补充</h2><p>潮汐：首先明确一点，潮汐的涨落是由于地球与月球的引力，同时海水涨潮时，海水覆盖大部分地球导致自转变得困难（我猜是海水张力，内部摩擦的影响），落潮则反之，两者使地球自转趋于较为平衡的状态。而回到本文章，地球停转以后月球仍然保持公转，也就是仍对潮汐起作用，潮汐继续摩擦地球使地球重新开始自转，而原本因为潮汐作用动能逐渐减小的月球会因为潮汐再次带动地球自转（通常情况下月球因为对潮汐做功，总能量减少，即在太空中为动能减少，根据通常认知的GmM/r²=mv²/r可知，v的减少则r需要相应增大所以月球一般情况下会逐渐远离地球）<br>（潮汐作用相关牵扯诸多，我还有很多没有弄清楚，若稍后有新的想法会继续在评论补充）<br><img src="/images/04.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> KindomOfScience </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Science </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo便签简记</title>
       <link href="/2023/08/24/hello-world/"/>
       <url>/2023/08/24/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello Hexo"></a>Hello Hexo</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello Hexo"></a>Hello Hexo</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h2 id="便捷logo网站"><a href="#便捷logo网站" class="headerlink" title="便捷logo网站"></a>便捷logo网站</h2><p><a href="https://www.logosc.cn/logo/">https://www.logosc.cn/logo/</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> KindomOfCode </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Code </tag>
+            
+        </tags>
       
     </entry>
     
