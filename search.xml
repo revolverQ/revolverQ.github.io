@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>酒精是如何影响人脑的？</title>
+      <link href="/2024/01/26/jiu-jing-shi-ru-he-ying-xiang-ren-nao-de/"/>
+      <url>/2024/01/26/jiu-jing-shi-ru-he-ying-xiang-ren-nao-de/</url>
+      
+        <content type="html"><![CDATA[<h2 id="酒精是什么？"><a href="#酒精是什么？" class="headerlink" title="酒精是什么？"></a>酒精是什么？</h2><p>酒精即为乙醇，是一种有机物（关于有机物依然可以有进一步的解释，然而本篇文章主题为酒精，因此不多赘述，再其他文章或者未来可以找到我对此写的文章呢？），化学式为CH3CH2OH，在常温常压下是一种易燃、易挥发的无色透明液体（为何有的有机物易燃、易挥发呢？不同的物质的分子结构究竟如何表现出其特有的某些性质呢？）<br>乙醇液体密度是0.789g/cm3(20C°) ，乙醇气体密度为1.59kg/m3，沸点是78.3℃，熔点是-114.1℃，易燃，其蒸气能与空气形成爆炸性混合物（？），且易溶于水。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> KindomOfScience </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Science </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一百个囚徒与灯</title>
+      <link href="/2023/09/05/yi-bai-ge-qiu-tu-yu-deng/"/>
+      <url>/2023/09/05/yi-bai-ge-qiu-tu-yu-deng/</url>
+      
+        <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>有 100 个囚犯分别关在 100 间牢房里。牢房外有一个空荡荡的房间，房间里有一个由开关控制的灯泡。初始时，灯是关着的（或者随机）。看守每天随便选择一名囚犯进入房间，但保证每个囚犯都会被选中无穷多次。如果在某一时刻，有囚犯成功断定出所有人都进过这个房间了，所有囚犯都能释放。游戏开始前，所有囚犯可以聚在一起商量对策，但在此之后它们唯一可用来交流的工具就只有那个灯泡。他们应该设计一个怎样的协议呢？请根据此协议设计实现一个程序。</p><h2 id="大致要求"><a href="#大致要求" class="headerlink" title="大致要求"></a>大致要求</h2><p>1）100个囚犯每人一间，什么都听不见，看不到，无法计算时间。<br>2）只知道年月日。<br>3）在牢房里无法获得外界任何信息。<br>4）每天完全随机打开一扇门放风。<br>5）放风的院子有一盏可以控制开关的灯。<br>6）除了囚犯，其他人不会去开关灯。<br>7）除了灯的开关，不可能在院子留下其他信息。<br>8）国王保证灯不会坏。<br>9）若干天之后，囚犯中的任何一个人站出来说：每个囚犯都已经至少去放过一次风了，</p><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>#include &lt;stdio.h&gt;<br>#include &lt;stdlib.h&gt;<br>#include &lt;time.h&gt;<br>#include &lt;stdbool.h&gt;</p><p>bool pri[100];<br>bool light;</p><p>int main()<br>{<br>   int first;<br>   first==0;<br>   int ID;<br>   srand((unsigned)time(NULL));;</p><p>   int num,d=1;<br>   while(num&lt;=100){<br>   ID=rand()%100;<br>   if(first==0)<br>    {<br>    light=0;<br>    first=ID;<br>    printf(“选中计数员为%d\n”,first);<br>   }<br>   if(!light&amp;&amp;!pri[ID])<br>    {<br>        printf(“未开灯，且囚犯未开过灯\n”);<br>        light=1;<br>        pri[ID]=1;<br>        d++;<br>    }<br>    if(!light&amp;&amp;pri[ID])<br>    {<br>        d++;</p><pre><code>}if(light&amp;&amp;pri[ID]&amp;&amp;ID==first){    num++;    light=0;    d++;    printf("已开灯，且该囚犯为计数员\n");}if(light&amp;&amp;pri[ID]){    d++;    printf("已开灯，且该囚犯已经开过灯\n");}if(light&amp;&amp;!pri[ID]){    d++;    printf("已开灯，且该囚犯没有开过灯\n");}</code></pre><p>   }</p><p>   printf(“囚犯已经全部放过风\n”);<br>   printf(“消耗天数为%d\n”,d);<br>   return 0;<br>}</p><h2 id="实现图片"><a href="#实现图片" class="headerlink" title="实现图片"></a>实现图片</h2><img src="/images/07.png">]]></content>
+      
+      
+      <categories>
+          
+          <category> KindomOfCode </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Code </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于闪电的粗浅解释</title>
+      <link href="/2023/09/01/guan-yu-shan-dian-de-cu-qian-jie-shi/"/>
+      <url>/2023/09/01/guan-yu-shan-dian-de-cu-qian-jie-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前置介绍"><a href="#前置介绍" class="headerlink" title="前置介绍"></a>前置介绍</h2><p>为了方便接下来的解释，我先对几个名词进行解析（资料来源百度）</p><h3 id="放电"><a href="#放电" class="headerlink" title="放电"></a>放电</h3><p> 字面意义就是让带电物体不带电，然而众所周知电荷不会消失只会转移（这个有意思，可以研究，但我们先看闪电，鉴于我可能会忘所以希望有看到的人提醒我研究）放电就是电荷转移时正负电荷相结合消除了电性。（显电性（广义上暂无人能解答））</p><h3 id="对流"><a href="#对流" class="headerlink" title="对流"></a>对流</h3><p>指的是流体内部由于各部分温度不同而造成的相对流动，即流体(气体或液体）通过自身各部分的宏观流动实现热量传递的过程。液体或气体中，较热的部分会上升，冷的部分则会下降，（因为热空气受热体积膨胀而密度减小则上升，冷空气则反之）最终因为需要热量传递而循环流动，相互传递热量，最终使温度均匀</p><h3 id="绝热冷却"><a href="#绝热冷却" class="headerlink" title="绝热冷却"></a>绝热冷却</h3><p>绝热冷却是指空气在绝热（既没有热传递）上升的过程中，气压随高度升高而降低，气块因体积膨胀而对外作功，从而导致空气本身温度的降低。</p><h3 id="积雨云"><a href="#积雨云" class="headerlink" title="积雨云"></a>积雨云</h3><p>是由于空气以对流形式造成绝热冷却，使水汽饱和凝结而成。产生积雨云需要的条件是:深厚而不稳定的气层，充沛水汽，足够的冲击力。</p><h2 id="闪电"><a href="#闪电" class="headerlink" title="闪电"></a>闪电</h2><h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>闪电，是云与云之间、云与地之间或者云体内各部位之间的强烈放电现象（一般发生在积雨云中）。在雷暴云内的正负电荷层之间，当电场强度足够大时，就会产生闪电。</p><h3 id="原理层面"><a href="#原理层面" class="headerlink" title="原理层面"></a>原理层面</h3><p>通常积雨云会产生电荷，底层为负电，顶层为正电，由此地面感应产生正电荷，而正电荷容易和负电荷相吸引，但空气传导性并不好，于是正电荷会沿着地面延伸到高处尝试与负电相接，而负电也会向下延伸（称其为先导）（或许是因为向下探寻哪有正电荷所以呈现扩展且扭曲的树状），延伸到离地较近距离（5-50m）时，地面电荷向上延伸进行回击，最终正负电荷中和放电将电能转换为光能，热能，声能。而释放这个巨大电能的过程会引起剧烈爆炸，产生冲击波，然后形成声波扩散，最终“打雷”。<img src="/images/06.jpg"><br>而以上都只是第一次回击的过程，第一次回击时因为周围空气被电离，形成了一条电荷可以识别的通道，于是之后的闪电就顺着简便通道而流，最终之后第二次第三次的回击不再那么扭曲，最终电荷消耗完毕，回击结束。<br>（在没有回击时仍然有微光产生，其原因似乎是因为电荷在空气中移动时与空气碰撞导致空气电离，空气电离的正离子参与了中和于是产生光能了）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> KindomOfScience </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Science </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于过冷状态的理解思考</title>
+      <link href="/2023/08/27/guan-yu-guo-leng-zhuang-tai-de-li-jie-si-kao/"/>
+      <url>/2023/08/27/guan-yu-guo-leng-zhuang-tai-de-li-jie-si-kao/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><p>过冷状态是温度低于凝固点但仍不凝固或结晶的液体。同时液体经过扰动后水分子间形成化学键，而形成化学键释放热量导致温度上升。</p><h2 id="我的思考"><a href="#我的思考" class="headerlink" title="我的思考"></a>我的思考</h2><p>首先理解定义中的晶体和液体是什么：晶体:分子或原子排列有规律；<br>液体:分子或原子排列无规律。<br>基于上述因素，液体在转化为固体时分子排列由无序转化为有序①，这一过程可以称为结晶，而同时结晶过程中，若液体越纯净，则结晶中心②越难形成，若降低至凝固点以下仍未形成结晶中心则称为过冷状态。<br><img src="/images/01.png"><br>而从凝固点时刻以及分子原子角度出发思考，我认为过冷态是基于温度已经对分子原子的运动产生了抑制，而运动过程中本来进行多体运动的粒子所产生的相互作用力因此变弱(或称所受的不确定力减少)，整体内部各个粒子逐渐趋于相对平衡，但此时原子和分子之间的作用力并未到达平衡需要缓慢移动直到达到相对平衡状态，而在温度随时间变化时对运动抑制更大且更要求粒子间相对静止的平衡而非运动时的平衡，最后到达实际凝固点从而达到相对静止并且相对平衡。<br>（这里逻辑有点混乱，简述一遍就是:温度低抑制分子运动，让分子间逐渐趋于相对静止，而运动时所受力的平衡状态，以及相对静止力的平衡状态不同，温度导致了这两种状态的转变）<br>第二段仅为一些想记录的想法，且苯人不是什么专业人士，概念一塌糊涂，所说经不起推敲</p><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p>注释①我认为固体分子之间排列更加紧密，相互作用力更加明显，同时也因此分子之间更需要达到平衡状态，平衡可称为有序，液体气体反之</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> KindomOfScience </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Science </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>基于《what if？》中关于风的思考</title>
+      <link href="/2023/08/27/ji-yu-what-if-zhong-guan-yu-feng-de-si-kao/"/>
+      <url>/2023/08/27/ji-yu-what-if-zhong-guan-yu-feng-de-si-kao/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><p>首先是关于风的解释<br>风，是由空气流动引起的一种自然现象，它是由太阳辐射热引起的。<br>太阳光照射在地球表面上，使地表温度升高，地表的空气受热膨胀变轻而往上升。<br>热空气上升后，低温的冷空气横向流入，上升的空气因逐渐冷却变重而降落，由于地表温度较高又会加热空气使之上升，这种空气的流动就产生了风。<br><img src="/images/03.jpg"></p><h3 id="介绍补充"><a href="#介绍补充" class="headerlink" title="介绍补充"></a>介绍补充</h3><p>✪同时还有与水蒸气的关联<br>集结的水蒸气（云）结成水时，体积缩小，周围水蒸气前来补充，就形成风。<br>地球上的风与水源有关系，风由水与水蒸气的胀缩而产生，风由大海吹向陆地，或陆地吹向大海。<br>在夏天地面上温度高，空气、水蒸气膨胀上升，要由海面比重大的空气、水蒸气补充地面空气空间。海面温度低空气收缩，要由地面上温度高空气膨胀上升的空气、水蒸气补充海面空气空间。（夏季风由海洋吹向陆地）<br>在冬天海面温度高海面空气上升，地面温度低空气比重大沿地面补充海面空间。（冬季风反之）<br><img src="/images/05.jpg"></p><h2 id="从运动学与力学角度深入"><a href="#从运动学与力学角度深入" class="headerlink" title="从运动学与力学角度深入"></a>从运动学与力学角度深入</h2><p>相对于地轴所有物体平均以470m/s的速度圆周运动，而赤道处速度最大（速度=角速度* 半径）<br>关于狂风摧毁建筑物的思路可以从动量冲量方面考虑p=mv，I=Ft=mv2-mv1。<br>而关于龙卷风将建筑物连根拔起可以这么解释:<br>风速快的地方压强就小，而龙卷风经过时导致房屋上方的压强变小，而房屋内部仍处于正常大气压，从而导致房屋被从低到高“压”飞出去。<br>（关于风速大压强小的解释:首先回忆能量守恒，以此为基础，流速大即代表空气动能大，动能大则势能小，势能小了压强也就小了）<br><img src="/images/02.jpg"></p><h2 id="基于书本对潮汐的补充"><a href="#基于书本对潮汐的补充" class="headerlink" title="基于书本对潮汐的补充"></a>基于书本对潮汐的补充</h2><p>潮汐：首先明确一点，潮汐的涨落是由于地球与月球的引力，同时海水涨潮时，海水覆盖大部分地球导致自转变得困难（我猜是海水张力，内部摩擦的影响），落潮则反之，两者使地球自转趋于较为平衡的状态。而回到本文章，地球停转以后月球仍然保持公转，也就是仍对潮汐起作用，潮汐继续摩擦地球使地球重新开始自转，而原本因为潮汐作用动能逐渐减小的月球会因为潮汐再次带动地球自转（通常情况下月球因为对潮汐做功，总能量减少，即在太空中为动能减少，根据通常认知的GmM/r²=mv²/r可知，v的减少则r需要相应增大所以月球一般情况下会逐渐远离地球）<br>（潮汐作用相关牵扯诸多，我还有很多没有弄清楚，若稍后有新的想法会继续在评论补充）<br><img src="/images/04.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> KindomOfScience </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Science </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo便签简记</title>
+      <link href="/2023/08/24/hello-world/"/>
+      <url>/2023/08/24/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello Hexo"></a>Hello Hexo</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h2 id="便捷logo网站"><a href="#便捷logo网站" class="headerlink" title="便捷logo网站"></a>便捷logo网站</h2><p><a href="https://www.logosc.cn/logo/">https://www.logosc.cn/logo/</a></p><h2 id="简记提示"><a href="#简记提示" class="headerlink" title="简记提示"></a>简记提示</h2><p>Win+R 输入cmd<br>转入D:后<br>用cd blog<br>cd revolverQBlog转入<br>hexo g产生<br>hexo d发布至网页上</p><h2 id="如何发布一篇新文章？"><a href="#如何发布一篇新文章？" class="headerlink" title="如何发布一篇新文章？"></a>如何发布一篇新文章？</h2><p>首先依然使用Win+R cmd进入<br>转入D:后<br>用cd blog<br>cd revolverQBlog转入<br>输入hexo new post 【文章标题】</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> KindomOfCode </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Code </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
