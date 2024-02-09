@@ -6,7 +6,7 @@
   <link href="https://revolverq.github.io/atom.xml" rel="self"/>
   
   <link href="https://revolverq.github.io/"/>
-  <updated>2024-01-26T14:39:01.402Z</updated>
+  <updated>2024-02-09T15:49:29.114Z</updated>
   <id>https://revolverq.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>c语言指针学习</title>
+    <link href="https://revolverq.github.io/2024/02/09/c-yu-yan-zhi-zhen-xue-xi/"/>
+    <id>https://revolverq.github.io/2024/02/09/c-yu-yan-zhi-zhen-xue-xi/</id>
+    <published>2024-02-09T11:36:29.000Z</published>
+    <updated>2024-02-09T15:49:29.114Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;什么是指针？&quot;&gt;&lt;a href=&quot;#什么是指针？&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="KindomOfCode" scheme="https://revolverq.github.io/categories/KindomOfCode/"/>
+    
+    
+    <category term="Code" scheme="https://revolverq.github.io/tags/Code/"/>
+    
+  </entry>
   
   <entry>
     <title>酒精是如何影响人脑的？</title>

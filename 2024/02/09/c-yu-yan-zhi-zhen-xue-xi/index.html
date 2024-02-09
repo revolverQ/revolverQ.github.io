@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="hexo便签简记, 逐星">
+    <meta name="keywords" content="c语言指针学习, 逐星">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>hexo便签简记 | 逐星</title>
+    <title>c语言指针学习 | 逐星</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">hexo便签简记</h1>
+                    <h1 class="description center-align post-title">c语言指针学习</h1>
                 </div>
             </div>
         </div>
@@ -459,7 +459,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2023-08-24
+                    2024-02-09
                 </div>
                 
 
@@ -480,22 +480,11 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello Hexo"></a>Hello Hexo</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h2 id="便捷logo网站"><a href="#便捷logo网站" class="headerlink" title="便捷logo网站"></a>便捷logo网站</h2><p><a target="_blank" rel="noopener" href="https://www.logosc.cn/logo/">https://www.logosc.cn/logo/</a></p>
-<h2 id="简记提示"><a href="#简记提示" class="headerlink" title="简记提示"></a>简记提示</h2><p>Win+R 输入cmd<br>转入D:后<br>用cd blog<br>cd revolverQBlog转入<br>hexo g产生<br>hexo d发布至网页上</p>
-<h2 id="如何发布一篇新文章？"><a href="#如何发布一篇新文章？" class="headerlink" title="如何发布一篇新文章？"></a>如何发布一篇新文章？</h2><p>首先依然使用Win+R cmd进入<br>转入D:后<br>用cd blog<br>cd revolverQBlog转入<br>输入hexo new post 【文章标题】</p>
+                <h2 id="什么是指针？"><a href="#什么是指针？" class="headerlink" title="什么是指针？"></a>什么是指针？</h2><p>指针的本质就是地址，通过指针变量存储的地址可以直接访问它指向的目标变量。<br>那么指针究竟产生了什么效果呢？<br>如下图的例子便十分直观：<br><img src="/images/08.png"><br>如上图所示，整型变量a，b即为所定义的变量本身，而<em>m，与</em>n与定义的a，b一致。然而m与n为a与b在建立变量时开辟的地址，即&amp;a，&amp;b，此时m指向a，n指向b。</p>
+<h2 id="指针定义的标准"><a href="#指针定义的标准" class="headerlink" title="指针定义的标准"></a>指针定义的标准</h2><p>1.定义指针前需要有变量类型，例如int、char、double等（int <em>p;）；<br>2.通常情况下，定义一个指针需要先进行定义，再指向一个变量，不要连等；<br>3.当指向一个变量时必须带&amp;<br>例如：</em>p=&amp;a;</p>
+<h2 id="指针与数组"><a href="#指针与数组" class="headerlink" title="指针与数组"></a>指针与数组</h2><p>众所周知，当我们定义一串数组，例如number[],此时number作为数组名的同时也表示收纳该数组所有元素的地址，<br>那么当利用一个表示地址的指针，它们二者是否相同？<br>如下即为一个范例：<br><img src="/images/09.png"><br>从上图可以看出它们的地址一致<br>虽然数值一致，但它们表达的含义相同吗？<br>其实不然，number本身表示的是数组首元素的地址，而&amp;number表示的是整个数组的地址</p>
+<pre><code>                         tbc.
+</code></pre>
 
                 
             </div>
@@ -522,7 +511,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://revolverQ.github.io/2023/08/24/hello-world/">https://revolverQ.github.io/2023/08/24/hello-world/</a>
+                    <a href="https://revolverQ.github.io/2024/02/09/c-yu-yan-zhi-zhen-xue-xi/">https://revolverQ.github.io/2024/02/09/c-yu-yan-zhi-zhen-xue-xi/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -731,66 +720,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2023/08/27/ji-yu-what-if-zhong-guan-yu-feng-de-si-kao/">
+                <a href="/2024/02/09/c-yu-yan-zhi-zhen-xue-xi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="基于《what if？》中关于风的思考">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="c语言指针学习">
                         
-                        <span class="card-title">基于《what if？》中关于风的思考</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-08-27
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/KindomOfScience/" class="post-category">
-                                    KindomOfScience
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Science/">
-                        <span class="chip bg-color">Science</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2023/08/24/hello-world/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="hexo便签简记">
-                        
-                        <span class="card-title">hexo便签简记</span>
+                        <span class="card-title">c语言指针学习</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -801,7 +742,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-24
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-02-09
                             </span>
                         <span class="publish-author">
                             
@@ -821,6 +762,55 @@
                     
                     <a href="/tags/Code/">
                         <span class="chip bg-color">Code</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2024/01/26/jiu-jing-shi-ru-he-ying-xiang-ren-nao-de/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="酒精是如何影响人脑的？">
+                        
+                        <span class="card-title">酒精是如何影响人脑的？</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-01-26
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/KindomOfScience/" class="post-category">
+                                    KindomOfScience
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Science/">
+                        <span class="chip bg-color">Science</span>
                     </a>
                     
                 </div>
